@@ -1,4 +1,3 @@
-:
 
 🚀 Java Practice Repository
 📌 Overview
@@ -96,13 +95,7 @@ Sum of Digits
 
 Each concept is implemented in separate Java classes for clarity and modular understanding.
 
-.
-├── Day3.java              // Operators & Expressions
-├── Day4.java              // Conditionals & Switch
-├── Loop.java              // Loop Practice
-├── Pattern.java           // Pattern Printing
-├── FunctionDay7.java      // Function-Based Programs
-└── PracticeSession4.java  // Mixed Practice Problems
+
 🎯 Purpose of This Repository
 
 Strengthen Java fundamentals
