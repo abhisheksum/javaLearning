@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class Loop {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Size of set : ");
+        int n = sc.nextInt();
+
+        int evensum = 0;
+        int oddsum = 0;
+
+        for(int i = 0; i < n; i++){
+            System.out.print("Enter elements of set : ");
+            int number = sc.nextInt();
+
+            if(number % 2 == 0){
+                evensum += number;
+            }else{
+                oddsum += number;
+            }
+        }
+
+        System.out.println("Sum of even numbers is :- " + evensum);
+        System.out.println("Sum of odd numbers is :- " + oddsum);
+
+    }
+}
