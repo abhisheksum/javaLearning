@@ -1,0 +1,18 @@
+public class FunctionDay7 {
+
+    public static int reversenum(int num){
+        int reversn = 0;
+
+        while(num > 0){
+            int lastDigit = num % 10;
+            num = num / 10;
+            reversn = reversn * 10 + lastDigit;
+        }
+
+        return reversn;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(reversenum(1234));
+    }
+}
