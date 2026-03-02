@@ -1,0 +1,11 @@
+public class Main {
+
+	public static void main(String[] args) {
+		int [] arr = {10,20,30,10,20};
+		int ans = 0;
+		for(int i : arr){
+			ans = i ^ ans;
+		}
+		System.out.println(ans);
+	}
+}
