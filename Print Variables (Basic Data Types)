@@ -1,0 +1,19 @@
+public class DataTypesProgram {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
+        String name = "Tony Stark";
+        byte bt = 8;
+        char ch = 'a';
+        boolean var = true;
+        float price = 10.5f;
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(name);
+        System.out.println(bt);
+        System.out.println(ch);
+        System.out.println(var);
+        System.out.println(price);
+    }
+}
