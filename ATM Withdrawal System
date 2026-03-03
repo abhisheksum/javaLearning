@@ -1,0 +1,27 @@
+import java.util.*;
+
+public class ifelse {
+
+        public static void main(String[] args) {
+                int pincode = 9931;
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Enter pincode: ");
+                int pincode1 = sc.nextInt();
+                if (pincode1 == pincode) {
+                        System.out.println("User can Access Account");
+                        System.out.print("Enter Balance:");
+                        long Balance = sc.nextLong();
+                        System.out.print("Enter Withdrawal Amount: ");
+                        long WithdrawalAmount = sc.nextLong();
+                        if (WithdrawalAmount <= Balance) {
+                                System.out.println("User Can Withdraw Cash");
+                                System.out.println("Remaining Balance is : " + (Balance - WithdrawalAmount));
+                        } else {
+                                System.out.println("Insufficient Balance ");
+                        }
+                } else {
+                        System.out.println("Pincode is wrong");
+                }
+
+        }
+}
