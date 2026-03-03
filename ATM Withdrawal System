@@ -3,8 +3,9 @@ import java.util.*;
 public class ifelse {
 
         public static void main(String[] args) {
-                int pincode = 9931;
-                Scanner sc = new Scanner(System.in);
+                 Scanner sc = new Scanner(System.in);
+                 System.out.print("Generate your pincode: ");
+                int pincode = sc.nextInt();
                 System.out.print("Enter pincode: ");
                 int pincode1 = sc.nextInt();
                 if (pincode1 == pincode) {
